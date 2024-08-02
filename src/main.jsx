@@ -4,12 +4,12 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import App from './App.jsx'
-import Error from './Error.jsx'
-import Home from './Home.jsx'
-import About from './About.jsx'
-import Contact from './Contact.jsx'
-import Portfolio from './Portfolio.jsx'
-import Resume from './Resume.jsx'
+import Error from './pages/Error.jsx'
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import Contact from './pages/Contact.jsx'
+import Portfolio from './pages/Portfolio.jsx'
+import Resume from './pages/Resume.jsx'
 
 
 const router = createBrowserRouter([
