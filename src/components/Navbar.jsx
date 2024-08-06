@@ -1,15 +1,13 @@
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-
-
 function NavBar() {
 
   return (
    <Navbar  expand='lg' className="m-lg-auto" collapseOnSelect >
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-    <Nav variant="pills" className="mt-5" defaultActiveKey={location.pathname}>
+    <Nav variant="pills" className="" defaultActiveKey={location.pathname}>
       <Nav.Item>
         <Nav.Link as={Link} to="/" eventKey="/">Home</Nav.Link>
       </Nav.Item>
