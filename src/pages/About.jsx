@@ -7,6 +7,7 @@ function About() {
         <div className="row">
           <div className="col-sm-12 col-lg-4 my-3 mt-lg-5">
             <img
+              className="img-thumbnail "
               src={profilePic}
               alt="profile-pic"
               style={{ height: 200 + "px" }}
@@ -22,18 +23,18 @@ function About() {
               <br />
             </p>
             <p>
-              I am a full-stack web developer with a background in other
-              industries such as music production, signage design and
-              manufacturing, CNC programing and operation, marble and granite
-              artisanship, wood working, and a list of other things. <br />
+              I am a full-stack web developer with a background in music
+              production, signage design and manufacturing, CNC programing and
+              operation, marble and granite artisanship, wood working, and a
+              list of other things. <br />
             </p>
             <p>
               What drives me the most in any endeavor is the love of bringing
               together aesthetic beauty with utility and function. Throughout my
               journey from having beautified homes with marble and granite
               countertops to creating signage for businesses by bringing
-              clients' designs to life, I have always enjoyed the marriage of
-              form and function as it enhances lives in a way that is pleasing.
+              clients' designs to life, I have always enjoyed enhancing life in
+              ways that are pleasing through the marriage of form and function.
             </p>
             <p>
               This journey has thus brought me to developing front-end and

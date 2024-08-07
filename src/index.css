@@ -95,6 +95,7 @@ header {
   height: 20vh;
   text-align: center;
   padding: 1.6em 2em;
+  /* border-radius: 0 0 10px 10px; */
 }
 
 #header-text {
@@ -105,6 +106,7 @@ footer {
   height: 15vh;
   text-align: center;
   line-height: 1em;
+  /* border-radius: 10px 10px 0 0; */
 }
 
 footer p {
@@ -154,4 +156,18 @@ main {
 .offcanvas-header {
   background-image: linear-gradient(45deg, #3184e2, #7c1b77);
   text-shadow: 2px 2px 4px silver;
+}
+
+/* ------------------------------------- */
+
+@media (min-width: 576px) {
+  footer {
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+@media (min-width: 576px) {
+  header {
+    border-radius: 0 0 5px 5px;
+  }
 }
