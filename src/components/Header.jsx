@@ -2,8 +2,8 @@ import Navbar from './Navbar';
 
 function Header() {
     return (
-        <header id='header' >
-            <h1 id='header-text'>Flem House Dev</h1>
+        <header id='header' className='px-3'>
+            <h1 id='header-text'>Jeremy Fleming</h1>
             <Navbar />
         </header>
     );

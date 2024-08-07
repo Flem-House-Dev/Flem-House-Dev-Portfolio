@@ -10,7 +10,7 @@ function App() {
           <Header />
         </div>
         <div className="row">
-          <main className="mx-3">
+          <main className="mx-lg-3 pt-2">
             <Outlet />
           </main>
         </div>
