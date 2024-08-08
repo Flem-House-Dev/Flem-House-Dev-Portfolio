@@ -23,23 +23,24 @@ function About() {
               <br />
             </p>
             <p>
-              I am a full-stack web developer with a background in music
-              production, signage design and manufacturing, CNC programing and
-              operation, marble and granite artisanship, wood working, and a
-              list of other things. <br />
+              I am a full-stack web developer with a background in signage
+              design and manufacturing, CNC programing and operation, marble and
+              granite artisanship, music production, wood working, and a list of
+              other things. <br />
             </p>
             <p>
               What drives me the most in any endeavor is the love of bringing
               together aesthetic beauty with utility and function. Throughout my
               journey from having beautified homes with marble and granite
-              countertops to creating signage for businesses by bringing
-              clients' designs to life, I have always enjoyed enhancing life in
-              ways that are pleasing through the marriage of form and function.
+              countertops to creating signage for businesses, I have always
+              enjoyed bringing clients' ideas to life through the marriage of
+              form and function.
             </p>
             <p>
-              This journey has thus brought me to developing front-end and
-              back-end web solutions for businesses, organizations, and
-              individuals to help them grow and connect.
+              This journey has thus brought me to the world of web developement
+              and design, developing both front-end and back-end web solutions
+              for businesses, organizations, and individuals to help them grow
+              and connect.
             </p>
           </div>
         </div>

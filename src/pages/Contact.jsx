@@ -82,13 +82,13 @@ function Contact() {
 
           <Row className="mb-3">
             <Col xs="4">
-              <Form.Control as="textarea" type="text" name="message" placeholder="Message" value={formData.message} onChange={handleChange} isInvalid={!!errors.name}/>
+              <Form.Control as="textarea" type="text" name="message" placeholder="Message" value={formData.message} onChange={handleChange} isInvalid={!!errors.name} style={{ height: "120px" }}/>
               <Form.Control.Feedback type="invalid">{errors.message}</Form.Control.Feedback>
             </Col>
           </Row>
         </FormGroup>
 
-        <Button type="submit">Submit</Button>
+        <Button type="submit" className="mb-3">Submit</Button>
       </Form>
     </div>
   );

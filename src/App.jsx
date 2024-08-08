@@ -2,7 +2,9 @@ import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
+
 function App() {
+  
   return (
     <>
       <div className="container">
@@ -10,9 +12,11 @@ function App() {
           <Header />
         </div>
         <div className="row">
-          <main className="mx-lg-3 pt-2">
-            <Outlet />
-          </main>
+          
+            <main id="main-div" className="mx-lg-3 pt-2">
+              <Outlet />
+            </main>
+          
         </div>
         <div className="row">
           <Footer />
