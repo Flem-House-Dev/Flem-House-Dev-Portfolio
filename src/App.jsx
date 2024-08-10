@@ -13,7 +13,7 @@ function App() {
         </div>
         <div className="row">
           
-            <main id="main-div" className="mx-lg-3 pt-2">
+            <main id="main-div" className="px-lg-4 pt-2">
               <Outlet />
             </main>
           
