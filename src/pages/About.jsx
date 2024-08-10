@@ -30,14 +30,14 @@ function About() {
             </p>
             <p>
               What drives me the most in any endeavor is the love of bringing
-              together aesthetic beauty with utility and function. Throughout my
+              together aesthetic elegance with utility and function. Throughout my
               journey from having beautified homes with marble and granite
               countertops to creating signage for businesses, I have always
               enjoyed bringing clients' ideas to life through the marriage of
               form and function.
             </p>
             <p>
-              This journey has thus brought me to the world of web developement
+              This journey has thus brought me to the world of web development
               and design, developing both front-end and back-end web solutions
               for businesses, organizations, and individuals to help them grow
               and connect.
