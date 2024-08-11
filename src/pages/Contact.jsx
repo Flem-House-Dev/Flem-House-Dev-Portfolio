@@ -71,7 +71,7 @@ function Contact() {
       <Form onSubmit={handleSubmit}>
         <FormGroup>
           <Row className="mb-3">
-            <Col xs="4">
+            <Col md="8" lg="6" xl="4">
               <Form.Control
                 type="text"
                 name="name"
@@ -87,7 +87,7 @@ function Contact() {
           </Row>
 
           <Row className="mb-3">
-            <Col xs="4">
+            <Col md="8" lg="6" xl="4">
               <Form.Control
                 type="email"
                 name="email"
@@ -103,7 +103,7 @@ function Contact() {
           </Row>
 
           <Row className="mb-3">
-            <Col xs="4">
+            <Col md="8" lg="6" xl="4">
               <Form.Control
                 as="textarea"
                 type="text"
@@ -112,7 +112,7 @@ function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 isInvalid={!!errors.name}
-                style={{ height: "120px" }}
+                style={{ height: "140px" }}
               />
               <Form.Control.Feedback type="invalid">
                 {errors.message}
@@ -121,7 +121,7 @@ function Contact() {
           </Row>
         </FormGroup>
 
-        <Button type="submit" className="mb-3">
+        <Button type="submit" className="submit-btn mb-3">
           Submit
         </Button>
       </Form>
