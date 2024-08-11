@@ -52,7 +52,7 @@ const githubLinkSix = "https://github.com/Flem-House-Dev/Crew-Roster-Query";
 function Portfolio() {
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
       {/* <p>My portfolio will go here...</p> */}
 
       <Container fluid>
