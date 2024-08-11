@@ -9,7 +9,7 @@ function Contact() {
   });
 
   const [errors, setErrors] = useState({});
-  const [successMessage, setSuccessMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -45,12 +45,16 @@ function Contact() {
     if (!validate()) {
       return;
     } else {
-      const mailtoLink = `mailto:flemhousetech@gmail.com?subject=Contact from ${formData.name}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`)}`;
+      const mailtoLink = `mailto:flemhousetech@gmail.com?subject=Contact from ${
+        formData.name
+      }&body=${encodeURIComponent(
+        `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`
+      )}`;
       window.location.href = mailtoLink;
-      setSuccessMessage('Your message has been prepared in your email client!');
-      
+      setSuccessMessage("Your message has been prepared in your email client!");
+
       console.log(formData);
-      
+
       setFormData({
         name: "",
         email: "",
@@ -61,34 +65,65 @@ function Contact() {
 
   return (
     <div>
-      <h1>Contact</h1>
+      <h2>Contact</h2>
 
       <p>Let's get in touch!</p>
       <Form onSubmit={handleSubmit}>
         <FormGroup>
           <Row className="mb-3">
             <Col xs="4">
-              <Form.Control type="text" name="name" placeholder="Name" value={formData.name} onChange={handleChange} isInvalid={!!errors.name}/>
-              <Form.Control.Feedback type="invalid">{errors.name}</Form.Control.Feedback>
+              <Form.Control
+                type="text"
+                name="name"
+                placeholder="Name"
+                value={formData.name}
+                onChange={handleChange}
+                isInvalid={!!errors.name}
+              />
+              <Form.Control.Feedback type="invalid">
+                {errors.name}
+              </Form.Control.Feedback>
             </Col>
           </Row>
 
           <Row className="mb-3">
             <Col xs="4">
-              <Form.Control type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} isInvalid={!!errors.name}/>
-              <Form.Control.Feedback type="invalid">{errors.email}</Form.Control.Feedback>
+              <Form.Control
+                type="email"
+                name="email"
+                placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
+                isInvalid={!!errors.name}
+              />
+              <Form.Control.Feedback type="invalid">
+                {errors.email}
+              </Form.Control.Feedback>
             </Col>
           </Row>
 
           <Row className="mb-3">
             <Col xs="4">
-              <Form.Control as="textarea" type="text" name="message" placeholder="Message" value={formData.message} onChange={handleChange} isInvalid={!!errors.name} style={{ height: "120px" }}/>
-              <Form.Control.Feedback type="invalid">{errors.message}</Form.Control.Feedback>
+              <Form.Control
+                as="textarea"
+                type="text"
+                name="message"
+                placeholder="Message"
+                value={formData.message}
+                onChange={handleChange}
+                isInvalid={!!errors.name}
+                style={{ height: "120px" }}
+              />
+              <Form.Control.Feedback type="invalid">
+                {errors.message}
+              </Form.Control.Feedback>
             </Col>
           </Row>
         </FormGroup>
 
-        <Button type="submit" className="mb-3">Submit</Button>
+        <Button type="submit" className="mb-3">
+          Submit
+        </Button>
       </Form>
     </div>
   );
