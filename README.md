@@ -1,8 +1,33 @@
-# React + Vite
+# Flem House Dev Portfolio
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ## Description
+  Welcome to my portfolio! Here you will find a little information about myself, projects I have worked on, and how to get in touch.
+  ## Table of Contents
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  1. [Installation](#Installation)
+  2. [Usage](#Usage)
+  3. [License](#License)
+  4. [Questions](#Questions)
 
-Currently, two official plugins are available:
+  ## Installaion
+  There is no installation required. Simply visit [Flem House Dev]() online.
+  
+  ## Usage
+  
+  At the Flem House Dev portfolio site, you can learn about my background and skill set. Or, you can browse and see for yourself the various projects I have worked on. If you would like learn more about working together to help your business grow, simply fill out the contact form or click on one of the social media account links at the bottom of the page. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  I look forward to working with you!
+  -Jeremy Fleming
+
+  ![About Page](./assets/about-page.PNG)
+
+  ![Portfolio Page](./assets/portfolio-page.PNG)
+
+  ![Resume Page](./assets/resume-page.PNG)
+
+  ![Contact Page](./assets/contact-page.PNG)
+
+  ## License
+  This software uses the MIT License.
+  ## Questions
+  If you have any questions, or if you would like to see more projects or would like to contribute, please visit: [Flem-House-Dev](https://github.com/Flem-House-Dev).
