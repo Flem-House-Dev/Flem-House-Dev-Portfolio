@@ -10,13 +10,13 @@ const viewLinkOne = "https://bit-blog-web-dev.onrender.com/";
 const githubLinkOne = "https://github.com/Flem-House-Dev/Bit-Blog-Web-Dev";
 
 import imageTwo from "../assets/good-notes.png";
-const titleTwo = "Good Notes";
-const descriptionTwo = `Good Notes is a simple yet useful note taking app. 
+const titleTwo = "Nice Notes";
+const descriptionTwo = `Nice Notes is a simple yet useful note taking app. 
   Taking notes can be a great 
   way to keep track of ideas. And, this app makes it simple to keep track of them 
   by enabling the user to enter, save, and delete them.`;
-const viewLinkTwo = "https://good-notes-13au.onrender.com/";
-const githubLinkTwo = "https://github.com/Flem-House-Dev/Good-Notes";
+const viewLinkTwo = "https://nice-notes.onrender.com";
+const githubLinkTwo = "https://github.com/Flem-House-Dev/Nice-Notes";
 
 import imageThree from "../assets/skycast-weather.png";
 const titleThree = "SkyCast Weather";
