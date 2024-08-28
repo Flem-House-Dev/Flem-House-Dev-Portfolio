@@ -17,30 +17,30 @@ function About() {
             <h2>About me:</h2>
             <p>
               <span className="fw-bold fst-italic">
-                Full-stack web developer bringing together form and function to
-                help businesses grow{" "}
+                Full-stack web developer merging form and function to
+                drive business growth
               </span>
               <br />
             </p>
             <p>
-              I am a full-stack web developer with a background in signage
-              design and manufacturing, CNC programing and operation, marble and
-              granite artisanship, music production, wood working, and a list of
-              other things. <br />
+              I am a full-stack web developer with a diverse background in
+              signage design and manufacturing, CNC programming and operation,
+              marble and granite craftsmanship, music production, and
+              woodworking. <br />
             </p>
             <p>
-              What drives me the most in any endeavor is the love of bringing
-              together aesthetic elegance with utility and function. Throughout my
-              journey from having beautified homes with marble and granite
-              countertops to creating signage for businesses, I have always
-              enjoyed bringing clients' ideas to life through the marriage of
-              form and function.
+              What drives me is the fusion of aesthetic elegance with practical
+              functionality. From enhancing homes with luxurious marble
+              countertops to creating impactful business signage, I've
+              consistently enjoyed turning visions into reality through a
+              thoughtful blend of form and function.
             </p>
             <p>
-              This journey has thus brought me to the world of web development
-              and design, developing both front-end and back-end web solutions
-              for businesses, organizations, and individuals to help them grow
-              and connect.
+              This passion for creating meaningful, functional designs has
+              naturally led me to web development. Now, I craft comprehensive
+              front-end and back-end solutions, dedicated to helping businesses,
+              organizations, and individuals grow and connect by translating
+              their needs into innovative and effective web experiences.
             </p>
           </div>
         </div>
