@@ -1,9 +1,7 @@
 import { Button, ListGroup } from "react-bootstrap";
-import resume from "../assets/ResumeComingSoon.pdf";
+import resume from "../assets/Jeremy_Fleming_resume.pdf";
 
 function Resume() {
-
-
   return (
     <div>
       <h2>Resume</h2>
@@ -14,19 +12,23 @@ function Resume() {
               <strong>Skills:</strong>
             </ListGroup.Item>
             <ListGroup.Item>
-              <em>Frontend Development</em> (HTML, CSS, JavaScript)
+              <em>Languages</em> (JavaScript (ES6+), HTML5, CSS3, SQL)
             </ListGroup.Item>
             <ListGroup.Item>
-              <em>Backend Development</em> (Node.js, Express.js, MongoDB, MySQL)
+              <em>Frameworks/Libraries</em> (React, Express.js, Node.js, jQuery,
+              Bootstrap, Handlebars.js)
             </ListGroup.Item>
             <ListGroup.Item>
-              <em>Frameworks</em> (React, GraphQL)
+              <em>Databases</em> (MongoDB, PostgreSQL)
             </ListGroup.Item>
             <ListGroup.Item>
-              <em>DevOps</em> (Git, Netlify)
+              <em>Version Control</em> (Git, GitHub)
             </ListGroup.Item>
             <ListGroup.Item>
-              <em>Other</em> (Agile, Responsive Design, Accessibility)
+              <em>API Development</em> (RESTful APIs)
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <em>Other Tools</em> (Jira, Azure, Webpack, Babel, npm)
             </ListGroup.Item>
           </ListGroup>
         </div>

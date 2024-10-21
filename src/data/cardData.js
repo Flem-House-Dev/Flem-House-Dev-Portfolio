@@ -1,7 +1,7 @@
 // cardData.js
-import imageOne from "../assets/bit-blog.png";
-import imageTwo from "../assets/good-notes.png";
-import imageThree from "../assets/skycast-weather.png";
+import imageOne from "../assets/jot-notes.jpg";
+import imageTwo from "../assets/skycast-weather.png";
+import imageThree from "../assets/The-Great-Adventure.jpg";
 import imageFour from "../assets/JATE.png";
 import imageFive from "../assets/Dino-finder.png";
 import imageSix from "../assets/crew-roster-query.png";
@@ -9,23 +9,15 @@ import imageSix from "../assets/crew-roster-query.png";
 export const cardData = [
   {
     img: imageOne,
-    title: "Bit-Blog",
-    text: `This website provides a place to read the latest in web 
-    development news, as well as share your own stories.`,
-    viewLink: "https://bit-blog-web-dev.onrender.com/",
-    githubLink: "https://github.com/Flem-House-Dev/Bit-Blog-Web-Dev",
+    title: "Jot Notes",
+    text: `Jot Notes is a handy note-taking tool designed to make capturing thoughts and ideas 
+    quick and easy. With a user-friendly interface and essential features, you can effortlessly 
+    create, update, and manage your notes.`,
+    viewLink: "https://jot-notes-j04f.onrender.com/",
+    githubLink: "https://github.com/Flem-House-Dev/JOT-Notes",
   },
   {
     img: imageTwo,
-    title: "Nice Notes",
-    text: `Nice Notes is a simple yet useful note-taking app. 
-    Taking notes can be a great way to keep track of ideas. This app 
-    makes it simple to enter, save, and delete them.`,
-    viewLink: "https://nice-notes.onrender.com",
-    githubLink: "https://github.com/Flem-House-Dev/Nice-Notes",
-  },
-  {
-    img: imageThree,
     title: "SkyCast Weather",
     text: `This handy weather app allows the user to see the current 
     weather conditions of a city as well as the 5-day forecast.`,
@@ -33,13 +25,13 @@ export const cardData = [
     githubLink: "https://github.com/Flem-House-Dev/SkyCast-Weather-App",
   },
   {
-    img: imageFour,
-    title: "JATE Text Editor",
-    text: `JATE is a text editor that allows the user to save text 
-    or code into the indexedDB on the local web browser. It can also 
-    be installed locally as a PWA.`,
-    viewLink: "https://github.com/Flem-House-Dev/JATE-Text-Editor",
-    githubLink: "https://github.com/Flem-House-Dev/JATE-Text-Editor",
+    img: imageThree,
+    title: "The Great Adventure",
+    text: `The Great Adventure is an engaging text-based adventure game built using the MERN stack.
+    As players journey through the game, they face multiple prompts with two choices at each step, 
+    guiding them along various paths until they reach a conclusion.`,
+    viewLink: "https://text-based-adventure-game.onrender.com",
+    githubLink: "https://github.com/Flem-House-Dev/Text-Based-Adventure-Game",
   },
   {
     img: imageFive,
@@ -57,5 +49,14 @@ export const cardData = [
     can view or update data for crew members, roles, and departments.`,
     viewLink: "https://github.com/Flem-House-Dev/Crew-Roster-Query",
     githubLink: "https://github.com/Flem-House-Dev/Crew-Roster-Query",
+  },
+  {
+    img: imageFour,
+    title: "JATE Text Editor",
+    text: `JATE is a text editor that allows the user to save text 
+    or code into the indexedDB on the local web browser. It can also 
+    be installed locally as a PWA.`,
+    viewLink: "https://github.com/Flem-House-Dev/JATE-Text-Editor",
+    githubLink: "https://github.com/Flem-House-Dev/JATE-Text-Editor",
   },
 ];
