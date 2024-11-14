@@ -28,7 +28,7 @@ function Resume() {
               <em>API Development</em> (RESTful APIs)
             </ListGroup.Item>
             <ListGroup.Item>
-              <em>Other Tools</em> (Jira,VSCode, Azure, Webpack, Babel, npm)
+              <em>Other Tools</em> (Jira, VSCode, Azure, Webpack, Babel, npm)
             </ListGroup.Item>
           </ListGroup>
         </div>
